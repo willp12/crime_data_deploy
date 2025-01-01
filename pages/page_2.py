@@ -14,8 +14,6 @@ teste = teste.rename(columns={'BAIRRO': 'Bairro', 'NUM_BO': 'Número de BOs'})
 
 teste = teste.reset_index(drop=True)
 
-print(teste)
-
 st.header("Top 10 maiores bairros em números de BOs registrados")
 
 st.table(teste)
