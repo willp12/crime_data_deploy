@@ -17,8 +17,8 @@ def cria_mapa_cluster(cluster=cluster_data):
 
 # Renderizar o mapa como HTML e exibir no Streamlit
 st.set_page_config(page_title="Mapa de Crime", layout="wide")
-st.header("Projeto de Dados - Crime contra Celulares em SP")
-st.title("Mapa com Folium no Streamlit")
+st.title("Projeto de Dados - Crime contra Celulares em SP")
+st.header("Mapa com Folium no Streamlit")
 st.write("""Este projeto tem como objetivo ilustrar os incidentes com
          celulares na cidade de São Paulo. Segue abaixos um mapa interativo com os clusters - neste mapa, pode-se navegar entre os bairros e ruas:""")
 
